@@ -16,7 +16,7 @@ const experiences = [
     id: 2,
     company: "UpToSkills",
     role: "Full Stack Developer Intern",
-    duration: "Jul 2026 – Aug 2026",
+    duration: "Jun 2026 – Aug 2026",
     description: [
       "Built scalable full-stack applications using React and Node.js.",
       "Designed backend APIs and integrated PostgreSQL.",

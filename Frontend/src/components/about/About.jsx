@@ -6,9 +6,9 @@ function About() {
     <>
       <div
         id="about"
-        className="w-full min-h-screen relative bg-black text-muted-foreground p-18 pt-30 flex items-center gap-40 border border-white/5 rounded-sm"
+        className="w-full min-h-screen relative bg-black text-muted-foreground pb-6 lg:p-6 lg:pt-30 grid lg:grid-cols-2  border border-white/5 rounded-sm"
       >
-        <div className="h-full w-1/2 flex flex-col justify-center gap-10 ">
+        <div className="h-full w-full flex flex-col justify-center gap-10 ">
           <div className="">
             <span className="text-primary font-mono tracking-widest">
               $ cat <span className="text-foreground">about.md</span>
@@ -54,7 +54,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className=" rounded-full bg-[#2d2d2d] hover:bg-[#b4ff39]">
+        <div className="w-full flex items-center justify-center lg:justify-end pt-12 lg:pt-0 ">
           <Image />
         </div>
       </div>

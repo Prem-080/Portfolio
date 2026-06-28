@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage'
 
 function Layout() {
   return (
-    <div className='relative bg-background antialiased m-25 mt-0'>
+    <div className='relative bg-background antialiased mt-0 m-13 md:m-12 md:mt-0 lg:m-20 lg:mt-0'>
       <Header />
       <main className=''>
         <HomePage/>

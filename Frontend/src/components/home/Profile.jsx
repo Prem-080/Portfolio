@@ -4,7 +4,7 @@ import { data } from "./portfolioData.js";
 function Profile() {
   const keys = ["name", "loc", "stack", "experience", "open"];
   return (
-    <div className="font-mono text-[10px] border border-border bg-card w-[340px]">
+    <div className="font-mono text-[10px] border border-border bg-card lg:w-[340px]">
       <div className="flex gap-2 py-3 px-4 text-muted-foreground items-center border-b border-border">
         <span className="w-2 h-2 rounded-2xl bg-red-500/50"></span>
         <span className="w-2 h-2 rounded-2xl bg-yellow-500/50"></span>

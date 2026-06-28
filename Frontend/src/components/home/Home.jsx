@@ -16,9 +16,9 @@ function Home() {
     <>
       <div
         id="home"
-        className="w-full flex justify-center items-center min-h-screen relative bg-background text-gray-400 p-18 "
+        className="w-full grid lg:grid-cols-2 min-h-screen gap-10 relative bg-background text-gray-400 p-10 pt-18 md:p-14 lg:p-18 "
       >
-        <div className="flex-1">
+        <div className="">
           <div className="flex items-center gap-3 mb-10">
             <span
               className="w-2 h-2 rounded-full bg-primary animate-pulse"
@@ -29,7 +29,7 @@ function Home() {
             </span>
           </div>
 
-          <h1 className="text-foreground text-[clamp(3.5rem,10vw,7.5rem)] font-display tracking-tighter w-1/2 leading-[0.92]">
+          <h1 className="text-foreground text-[clamp(3.5rem,10vw,7.5rem)] font-display w-1/2 lg:w-full tracking-tighter leading-[0.92]">
             {data.role?.first ?? "Full Stack"}
             <span className="inline-block text-gray-400 italic">
               {data.role?.second ?? "Developer"}.
@@ -38,7 +38,7 @@ function Home() {
 
           <Terminal />
 
-          <div className="pt-11 w-1/2">
+          <div className="pt-11">
             I build systems that scale and interfaces that hold up under
             scrutiny. Currently at Vercel, working on the edge. Previously at
             Stripe and Loom.
@@ -66,7 +66,7 @@ function Home() {
             </button>
           </div>
         </div>
-        <div className="relative flex items-end">
+        <div className="relative hidden lg:flex justify-end items-end ">
           <Profile />
         </div>
       </div>

@@ -6,7 +6,7 @@ function Skills() {
     <>
       <div
         id="skills"
-        className="w-full min-h-screen relative bg-black text-foreground p-18 pt-30 gap-40"
+        className="w-full min-h-screen relative bg-black text-foreground p-5 lg:p-18 pt-30 gap-40"
       >
         <div className="">
           <span className="text-primary font-mono tracking-widest">

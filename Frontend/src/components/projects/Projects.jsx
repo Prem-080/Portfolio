@@ -7,7 +7,7 @@ function Projects() {
     <>
       <div
         id="projects"
-        className="w-full min-h-full relative bg-black text-muted-foreground p-18 "
+        className="w-full min-h-full relative bg-black text-muted-foreground p-8 lg:p-18 "
       >
         <div>
           <span className="text-primary font-mono tracking-widest">
@@ -15,7 +15,7 @@ function Projects() {
             <span className="cursor animate-pulse">_</span>
           </span>
         </div>
-        <div className="grid grid-cols-2 pt-10 gap-5">
+        <div className="grid lg:grid-cols-2 pt-8 lg:pt-10 gap-5">
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
