@@ -37,7 +37,7 @@ export default function Terminal() {
   });
 
   return (
-    <div className="bg-black text-xl pl-0 p-15 pb-5">
+    <div className="text-xl pl-0 p-15 pb-5">
       <span className="font-mono tracking-widest text-primary">
         $ <span className="text-muted-foreground ml-1">{display}</span>
         <span className="ml-1 animate-pulse">_</span>
