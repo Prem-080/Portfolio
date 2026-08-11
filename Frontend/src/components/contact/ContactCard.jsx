@@ -4,12 +4,12 @@ import { ArrowUpRight } from "lucide-react";
 function ContactCard({ contact }) {
   return (
     <>
-      <div className="group border border-border rounded-md p-5 hover:border-primary transition-all duration-300 hover:-translate-y-1">
+      <div className="group border border-border rounded-md min-w-0 p-5 hover:border-primary transition-all duration-300 hover:-translate-y-1">
         <div className="text-xs uppercase tracking-widest text-primary font-mono">
           {contact.label}
         </div>
 
-        <div className="mt-2 text-lg font-medium">{contact.value}</div>
+        <div className="mt-2 text-lg wrap-break-word font-medium">{contact.value}</div>
 
         <a
           href={contact.href}
