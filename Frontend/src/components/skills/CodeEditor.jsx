@@ -10,7 +10,7 @@ export default function CodeEditor() {
   const [activeTab, setActiveTab] = useState(tabs[0]);
 
   return (
-    <div className="flex h-[450px] border border-border rounded-lg overflow-hidden">
+    <div className="flex h-[450px] border border-border rounded-lg overflow-scroll overflow-y-hidden lg:overflow-hidden md:overflow-hidden">
       <Explorer tabs={tabs} activeTab={activeTab} setActiveTab={setActiveTab} />
 
       <div className="flex flex-col flex-1">
