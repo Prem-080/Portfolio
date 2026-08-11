@@ -7,13 +7,13 @@ export const contacts = [
   },
   {
     label: "GitHub",
-    value: "github.com/yourusername",
+    value: "github.com/Prem-080",
     href: "https://github.com/Prem-080",
     text: "View GitHub",
   },
   {
     label: "LinkedIn",
-    value: "linkedin.com/in/yourprofile",
+    value: "linkedin.com/in/premkumarsingh080",
     href: "https://www.linkedin.com/in/premkumarsingh080/",
     text: "View LinkedIn",
   },

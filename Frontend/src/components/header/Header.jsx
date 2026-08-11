@@ -4,7 +4,7 @@ import { Menu, X } from "lucide-react";
 
 function Header() {
   const [active, setActive] = useState("home");
-  const links = ["home", "about", "projects", "contact"];
+  const links = ["home", "about", "projects", "experience", "contact"];
   const [scrolled, setScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -31,7 +31,7 @@ function Header() {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 py-3 flex justify-between px-16 lg:px-36 md:px-24 ${scrolled ? "bg-background/90 backdrop-blur-md shadow-sm border border-b-border" : ""} `}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 py-3 flex justify-between px-10 lg:px-32 md:px-20 ${scrolled ? "bg-background/90 backdrop-blur-md shadow-sm border border-b-border" : ""} `}
       >
         {/* Logo */}
         <div className="flex items-center justify-center">

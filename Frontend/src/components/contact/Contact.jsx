@@ -7,7 +7,7 @@ function Contact() {
     <>
       <div
         id="contact"
-        className="z-100 w-full min-h-full relative bg-black text-muted-foreground px-6 lg:px-18 py-30"
+        className=" w-full min-h-full relative bg-black text-muted-foreground px-6 lg:p-12 lg:pt-18 py-30"
       >
         <span className="font-mono tracking-widest text-primary">
           $ ./<span className="text-white">contact.sh</span>

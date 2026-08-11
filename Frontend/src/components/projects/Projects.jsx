@@ -7,7 +7,7 @@ function Projects() {
     <>
       <div
         id="projects"
-        className="w-full min-h-full relative bg-black text-muted-foreground p-8 lg:p-18 "
+        className="w-full min-h-full relative bg-black text-muted-foreground p-8 lg:p-12 lg:pt-18  "
       >
         <div>
           <span className="text-primary font-mono tracking-widest">

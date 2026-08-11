@@ -16,7 +16,7 @@ function Home() {
     <>
       <div
         id="home"
-        className="w-full grid lg:grid-cols-2 min-h-screen gap-10 relative bg-background text-gray-400 p-10 pt-18 md:p-14 lg:p-18 "
+        className="w-full grid lg:grid-cols-2 min-h-screen gap-10 relative bg-background text-gray-400 p-5 pt-18 md:p-14 lg:p-12 lg:pt-18"
       >
         <div className="">
           <div className="flex items-center gap-3 mb-10">

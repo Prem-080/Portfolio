@@ -1,4 +1,4 @@
-const SectionBorder = ({ children, borderColor="border-white/5", padding="px-12 py-16" }) => {
+const SectionBorder = ({ children, borderColor="border-white/5", padding="px-3 py-5 lg:px-8 lg:py-14" }) => {
   return (
     <section className={`relative border ${borderColor} rounded-sm`}>
 
